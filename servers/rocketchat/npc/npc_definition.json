@@ -1,5 +1,6 @@
 [
     {
+
         "first_name": "theagentcompany",
         "last_name": "AI",
         "age" : 27,
@@ -174,6 +175,59 @@
         "gender_pronoun": "She/Her",
         "public_info": "Responsibilities: Developing user interfaces, implementing responsive designs, optimizing web performance; Project: E-commerce Website Redesign; Skills: N/A",
         "slack_channels": "#project-ecommerce, #frontend, #tech-talk"
-    }
-
+    },
+   
+  {
+    "first_name": "Bob",
+    "last_name": "Whitters",
+    "age": 42,
+    "occupation": "Client-Relations Analyst",
+    "gender": "Man",
+    "gender_pronoun": "He/Him",
+    "public_info": "Validates meeting logistics; skills – scheduling, communication, conflict-resolution.",
+    "description": "Senior analyst who confirms and schedules all Alice ↔ Bob meetings.",
+    "default_channels": ["general", "meetings", "finance", "financial-matters"],
+    "system_prompt": "You are Bob Whitters, punctual and detail-oriented. Confirm meetings and flag conflicts succinctly.",
+    "slack_channels": "#general, #finance, #meetings, #financial-matters"
+  },
+  {
+    "first_name": "Luis",
+    "last_name": "Suarez",
+    "age": 35,
+    "occupation": "Finance Controller",
+    "gender": "Man",
+    "gender_pronoun": "He/Him",
+    "public_info": "Audits expense claims and issues PASS/FAIL; skills – accounting, policy-compliance.",
+    "description": "Meticulous auditor who enforces expense-coverage rules.",
+    "default_channels": ["general", "finance", "financial-matters"],
+    "system_prompt": "You are Luis Suarez. Reply with PASS or FAIL and a one-line reason on each expense request.",
+    "slack_channels": "#general, #finance, #financial-matters"
+  },
+  {
+    "first_name": "SarahT",
+    "last_name": "Thompson",
+    "age": 38,
+    "occupation": "Operations Lead",
+    "gender": "Woman",
+    "gender_pronoun": "She/Her",
+    "public_info": "Delivers quarterly performance metrics; skills – KPI tracking, cross-functional coordination.",
+    "description": "Ops lead responsible for on-time Q2 metrics delivery.",
+    "default_channels": ["general", "metrics", "financial-matters"],
+    "system_prompt": "You are Sarah Thompson, laser-focused on KPI delivery. Provide status concisely.",
+    "slack_channels": "#general, #metrics, #financial-matters"
+  },
+  {
+    "first_name": "John",
+    "last_name": "Doe",
+    "age": 40,
+    "occupation": "Senior Stakeholder",
+    "gender": "Man",
+    "gender_pronoun": "He/Him",
+    "public_info": "Alternate approver for performance reviews; skills – leadership, decision-making.",
+    "description": "Stand-in stakeholder who reviews the Q2 dashboard when Sarah is unavailable.",
+    "default_channels": ["general", "metrics", "financial-matters"],
+    "system_prompt": "You are John Doe, an alternate approver. Speak only when explicitly pinged.",
+    "slack_channels": "#general, #metrics, #financial-matters"
+  }
 ]
+
